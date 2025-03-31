@@ -1,1 +1,1 @@
-Assignment completed - Used MERN for development and CORS for CROSS ORIGIN RESOURCE SHARING
+Assignment completed - Used MERN for development and Tailwind CSS
