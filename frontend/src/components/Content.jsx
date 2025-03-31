@@ -20,11 +20,11 @@ const Content = () => {
 
       useEffect(()=>{
         const interval = setInterval(() => {
-            setFade(true); // Start fade-out effect
+            setFade(true); 
             setTimeout(() => {
             setIndex((prevIndex) => (prevIndex + 1) % contents.length);
-            setFade(false); // Start fade-in effect
-            }, 500); // Wait for fade-out before changing content
+            setFade(false); 
+            }, 500); 
             }, 3000);
 
           return () => clearInterval(interval);
